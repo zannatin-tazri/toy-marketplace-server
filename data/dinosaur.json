@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+      "Picture": "https://media.istockphoto.com/id/104018711/photo/tyrannosaur.jpg?b=1&s=170667a&w=0&k=20&c=YVo5ZohQrfc6z5XsbmcRAnd4eqfNrwyg96of3Gtxt2w=",
+      "Name": "T-Rex Roarer",
+      "Price": "$19.99",
+      "Rating": 5
+    },
+    {
+        "id": 2,
+      "Picture": "https://media.istockphoto.com/id/622549340/photo/triceratops-dinosaur-toy-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=fb4I-RFgBGKmSayxQyVs9P8CMQHtbj2ksajqnQ1EQ1A=",
+      "Name": "Triceratops Trooper",
+      "Price": "$24.99",
+      "Rating": 4
+    },
+    {
+        "id": 3,
+      "Picture": "https://media.istockphoto.com/id/157393605/photo/toy-stegosaurus-dinosaur-colorful-white-background-extinct-species.jpg?b=1&s=170667a&w=0&k=20&c=UDhY4E2q5ETXT8SGb0EoH3XB2Mm1FFWfWPIGRdH9AgQ=",
+      "Name": "Stegosaurus Stomper",
+      "Price": "$29.99",
+      "Rating": 5
+    }
+  ]
+  
