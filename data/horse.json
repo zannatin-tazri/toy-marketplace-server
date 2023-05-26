@@ -1,0 +1,21 @@
+[
+    {
+      "Picture": "https://media.istockphoto.com/id/182166193/photo/toy-horse.jpg?s=612x612&w=0&k=20&c=2wgYOIsxM61oMtusr24bGjCcD9G3cY9Gnbw38LwI1l8=",
+      "Name": "Gallop 'n Go",
+      "Price": "$29.99",
+      "Rating": 4
+    },
+    {
+      "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCpwzaIZsrwpgPBQ69HbNdGlpZ7LQlt6_dVDjUm_-BRF8QhXFClbkcGuv5rh-fzHzRNSo&usqp=CAU",
+      "Name": "Rainbow Rider",
+      "Price": "$39.99",
+      "Rating": 4
+    },
+    {
+      "Picture": "https://media.istockphoto.com/id/518893637/photo/toy-horses.jpg?s=612x612&w=0&k=20&c=_hVeTZ7AzROZylO-fJSnZaxPsHzlgdP4Lx0IOxujCKk=",
+      "Name": "Steadfast Stallion",
+      "Price": "$49.99",
+      "Rating": 4
+    }
+  ]
+  

@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "Picture": "https://example.com/teddy1.jpg",
+        "Picture": "https://media.istockphoto.com/id/525900055/photo/toy-teddy-bear-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=fh784YJsBiCLe0fMJ78tsctKY1DIyTiFpJm_AZ3Xjl4=",
         "Name": "Cuddly Bear",
         "Price": "$19.99",
-        "Rating": 4.5,
+        "Rating": 5,
         "ViewDetailsButton": "<button>View Details</button>"
     },
     {
         "id": 2,
-        "Picture": "https://example.com/teddy2.jpg",
+        "Picture": "https://media.istockphoto.com/id/157588550/photo/light-brown-stuffed-bear-sitting-on-white-surface.jpg?b=1&s=170667a&w=0&k=20&c=GHMFZjzP0QwjubrRPm0gTRGs12g9txgfOiLjQn6z1AA=",
         "Name": "Fluffy Friend",
         "Price": "$24.99",
-        "Rating": 4.2,
+        "Rating": 5,
         "ViewDetailsButton": "<button>View Details</button>"
     },
     {
         "id": 3,
-        "Picture": "https://example.com/teddy3.jpg",
+        "Picture": "https://images.unsplash.com/photo-1627807477977-31100b68087d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80",
         "Name": "Bear Hugger",
         "Price": "$29.99",
-        "Rating": 4.8,
+        "Rating": 5,
         "ViewDetailsButton": "<button>View Details</button>"
     }
 ]
