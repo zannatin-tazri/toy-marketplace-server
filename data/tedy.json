@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "Picture": "https://example.com/teddy1.jpg",
+        "Name": "Cuddly Bear",
+        "Price": "$19.99",
+        "Rating": 4.5,
+        "ViewDetailsButton": "<button>View Details</button>"
+    },
+    {
+        "id": 2,
+        "Picture": "https://example.com/teddy2.jpg",
+        "Name": "Fluffy Friend",
+        "Price": "$24.99",
+        "Rating": 4.2,
+        "ViewDetailsButton": "<button>View Details</button>"
+    },
+    {
+        "id": 3,
+        "Picture": "https://example.com/teddy3.jpg",
+        "Name": "Bear Hugger",
+        "Price": "$29.99",
+        "Rating": 4.8,
+        "ViewDetailsButton": "<button>View Details</button>"
+    }
+]
