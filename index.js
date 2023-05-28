@@ -8,14 +8,13 @@ const port =process.env.PORT|| 5000;
 const teddyBear=require('./data/tedy.json');
 const horse=require('./data/horse.json');
 const dinosaur=require('./data/dinosaur.json');
+const allToys=require('./data/allToys.json');
 
 app.use(cors());
 app.use(cors());
 app.use(cors());
 
 app.use(express.json());
-
-console.log(process.env.DB_PASS);
 
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.3moahdm.mongodb.net/?retryWrites=true&w=majority`;
@@ -30,7 +29,7 @@ const client = new MongoClient(uri, {
 });
 
 async function run() {
-  try {
+  try { 
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
 
@@ -45,6 +44,13 @@ async function run() {
 
     app.get('/teddy',async(req,res)=>{
         const cursor=teddyData.find();
+        const result=await cursor.toArray();
+        res.send(result);
+    })
+    const allToyData=client.db('AllToys').collection('allToys');
+
+    app.get('/allToys',async(req,res)=>{
+        const cursor=allToyData.find();
         const result=await cursor.toArray();
         res.send(result);
     })
@@ -71,15 +77,19 @@ app.get('/',(req,res)=>{
     res.send('hello');
 });
 
-app.get('/teddyBear',(req,res)=>{
-    res.send(teddyBear);
-})
-app.get('/horse',(req,res)=>{
-    res.send(horse);
-})
-app.get('/dinosaur',(req,res)=>{
-    res.send(dinosaur);
-})
+// app.get('/allToys',(req,res)=>{
+//   res.send(allToys);
+// })
+
+// app.get('/teddyBear',(req,res)=>{
+//     res.send(teddyBear);
+// })
+// app.get('/horse',(req,res)=>{
+//     res.send(horse);
+// })
+// app.get('/dinosaur',(req,res)=>{
+//     res.send(dinosaur);
+// })
 
 app.listen(port,()=>{
     console.log(`port : ${port}`);
