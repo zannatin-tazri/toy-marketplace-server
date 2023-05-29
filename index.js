@@ -93,4 +93,6 @@ app.get('/',(req,res)=>{
 
 app.listen(port,()=>{
     console.log(`port : ${port}`);
-})
+});
+
+module.exports=app;
