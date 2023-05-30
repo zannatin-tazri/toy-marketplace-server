@@ -10,9 +10,13 @@ const horse=require('./data/horse.json');
 const dinosaur=require('./data/dinosaur.json');
 const allToys=require('./data/allToys.json');
 
-app.use(cors());
-app.use(cors());
-app.use(cors());
+const corsConfig = {
+  origin: '',
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE']
+}
+app.use(cors(corsConfig))
+app.options("", cors(corsConfig))
 
 app.use(express.json());
 
